@@ -5,4 +5,4 @@ The first issue is with the COM ports and the Grand Central.  Before uploading, 
 
 Second, the program freezes before entering the main loop when using Adafruit_ili9341.h and PWM (timer based interrupt).  void setup() executes fine, but the program freezes at the end of setup.
 
-A third issue is with the serial monitor when using the Adafruit_ili9341.h and XPT2046_Touchscreen.h libraries together.
+A third issue is with the serial monitor when using the Adafruit_ili9341.h and XPT2046_Touchscreen.h libraries together -- issue #1 rises from the dead here.
